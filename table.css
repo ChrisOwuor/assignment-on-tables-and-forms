@@ -1,0 +1,41 @@
+body {
+  background-color: white;
+  opacity: 90;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+}
+table {
+  width: 500px;
+  border-collapse: collapse;
+}
+thead {
+  background-color: rgb(32, 210, 150);
+  color: white;
+}
+thead tr th {
+  padding: 10px;
+}
+tbody tr td {
+  text-align: center;
+}
+tbody tr {
+      border-bottom: 1px solid gray;
+
+}
+tbody tr:nth-child(even) {
+  background-color: rgb(204, 204, 204);
+  color: rgb(32, 210, 150);
+}
+tbody tr:nth-child(odd) {
+  background-color: white;
+}
+thead tr th {
+  padding: 10px;
+}
+table tr td {
+  padding: 10px;
+}
+table thead tr {
+  border-radius: 5px;
+}
